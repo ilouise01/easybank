@@ -6,31 +6,49 @@
   background-color:  #ffffff;
 }
 
-.info{
-  background-color: hsl(220, 16%, 96%);
-  text-align: center;
-}
-.info h2, .intro h4{
-  margin: 1rem;
-}
-.info h2{
-  font-size: 2.8rem;
-  font-weight: 400;
-  color: #2d314d;
-}
-.info h3{
-  font-size: 2rem;
-  font-weight: 400;
-  color: #2d314d;
-}
-.info h4{
-  color: #ACACB7;
-}
+
 .mockup-image{
   
   height: auto;
   width: 100%;
 }
+
+
+h1{
+  font-size: 3rem;
+  font-weight: 400;
+  color: #2d314d;
+}
+h2{
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #2d314d;
+}
+ h3{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2d314d;
+}
+h4{
+  font-size: 1em;
+  color: #ACACB7;
+  font-weight: 400;
+}
+h5{
+  font-size: 1em;
+  font-weight: 400;
+  color: #ACACB7;
+}
+h6{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #ACACB7;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 600px) {
   
