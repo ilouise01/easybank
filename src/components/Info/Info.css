@@ -1,0 +1,54 @@
+  .info{
+    background-color: hsl(220, 16%, 96%);
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  .info-head{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+  }
+ 
+  .info-body{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 18rem;
+    min-height: 15rem;
+    margin: 3rem 1rem;
+  }
+  .info-card img{
+    max-width: 5rem;
+  }
+  
+  
+  .info h4{
+    color: #ACACB7;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .info{
+      padding: 5rem;
+      
+    }
+    .info-card{
+      align-items: flex-start;
+      text-align: start;
+    }
+    .info-head{
+      text-align: start;
+      justify-content: flex-start;
+      width: 50%;
+      padding-bottom: 3rem;
+    }
+    .info-body{
+      justify-content: space-between;
+    }
+  }

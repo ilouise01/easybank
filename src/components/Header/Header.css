@@ -1,0 +1,106 @@
+  .desktop{
+    display: none;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100lvw;
+    height: 8lvh;
+    z-index: 2;
+    transform-style: preserve-3d;
+  }
+  .logo{
+    display: flex;
+    left: 1rem;
+    max-width: 10rem;
+    margin-left: 1rem;
+    flex: 1;
+  }
+  .brgr-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2rem;
+    border: none;
+    background: transparent;
+    flex: 1;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .brgr-menu:hover{
+    cursor: pointer;
+  }
+  
+  .nav h4{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding:0rem 1rem 0rem 1rem;
+    
+  }
+  .nav h4:hover{
+    border-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 30;
+    border-bottom: 4px solid;
+    cursor: pointer;
+    color: black;
+  }
+ 
+
+  @media only screen and (min-width: 1391px) {
+    .desktop{
+      display: flex;
+      align-items: center;
+    }
+    .nav{
+      display: flex;
+      flex-direction: row;
+      flex: 3;
+      height: 100%;
+      justify-content: center;
+      position: relative;
+    }
+    .brgr-menu{
+      display: none;
+    }
+   }
+   @media only screen and (max-width: 1390px) {
+    .nav{
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      flex: 3;
+      justify-content: center;
+      align-items: center;
+      height: 40lvh;
+      width: 80lvw;
+      top: 6rem;
+      left: 50%;
+      background-color: #FFFFFF;
+      border-radius: 0.25rem;
+      box-shadow: hsl(233, 26%, 24%) 0px 7px 50rem;
+      padding: 1rem;
+      z-index: 1;
+      transform: translateZ(-10px) translate(-50%, 0%);
+      
+    }
+    .nav h4{
+      color: black;
+      font-size: 1.5rem;
+    }
+    .hidden{
+      top: -50lvh;
+    }
+    .active{
+      animation-name: menuanim;
+      animation-duration: 0.3s;
+    }
+    .rotate{
+      transform: rotate(-180deg);
+    }
+   }
+   @keyframes menuanim{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+   }
+  

@@ -1,0 +1,67 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    background: url("../../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .intro h1, .intro h4{
+    margin: 1rem;
+  }
+  
+  .ri-btn{
+    background: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    border-radius: 5rem;
+    min-height: 3.2rem;
+    max-width: 15rem;
+    padding: 0rem 2rem 0rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  
+  }
+  .ri-btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  .ri-btn h4{
+    color: white !important;
+  }
+
+  @media only screen and (min-width: 1390px) {
+   .intro{
+    display: flex;
+    background: url("../../images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: 400%;
+    background-position-y: 50%;
+    height: 90lvh;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+   }
+   .intro-title{
+    width: 30rem;
+    position: absolute;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   }
+   .mockup-image{
+    display: flex;
+    width: auto;
+    height: 130lvh;
+    position: absolute;
+    right: -7rem;
+   }
+   .ri-btn{
+      margin-left: 1rem;
+   }
+  }
