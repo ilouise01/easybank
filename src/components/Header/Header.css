@@ -79,7 +79,7 @@
       left: 50%;
       background-color: #FFFFFF;
       border-radius: 0.25rem;
-      box-shadow: hsl(233, 26%, 24%) 0px 7px 50rem;
+      box-shadow: hsl(233, 26%, 24%) 0px 7px 5rem;
       padding: 1rem;
       z-index: 1;
       transform: translateZ(-10px) translate(-50%, 0%);
